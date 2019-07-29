@@ -14,12 +14,12 @@ html{
 	padding-right: 15px;
 	margin-left: calc((100% - 200px) / 2);
     width: 200px;
-    height: 275px;
+    height: 300px;
     outline: thick ridge white;
     display: inline-block
 }
 #boxResult{
-    font-family: 'Silkscreen';
+    font-family: 'Press Start 2P';
 	padding-top: 25px;
     text-align: center;
     vertical-align: bottom;

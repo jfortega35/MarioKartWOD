@@ -8,7 +8,7 @@ function doSpin(){
 	var numChanges = randomInt(1,4)*8
     var numberitemBox = numChanges + randomInt(1,8)
 	var i = 0;
-	boxResult.innerHTML = "SPINNING..."
+	boxResult.innerHTML = "..."
 	itemBox = setInterval(spin, 50);
 	function spin(){
 		i++;
