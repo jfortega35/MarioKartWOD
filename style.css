@@ -1,5 +1,5 @@
 html{
-    background: url("images/marioKartItems/marioKartBackground.png") no-repeat center center fixed; 
+    background: url("images/wodioKartItems/wodioKartBackground.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -38,29 +38,29 @@ html{
     outline: thick ridge white;
 }
 .a0{
-    background-image: url('images/marioKartItems/ItemBox.png');
+    background-image: url('images/wodioKartItems/ItemBox.png');
 }
 .a1{
-	background-image: url("images/marioKartItems/banana.png");
+	background-image: url("images/wodioKartItems/banana.png");
 }
 .a2{
-	background-image: url("images/marioKartItems/blueShell.png");
+	background-image: url("images/wodioKartItems/blueShell.png");
 }
 .a3{
-	background-image: url("images/marioKartItems/bobomb.png");
+	background-image: url("images/wodioKartItems/bobomb.png");
 }
 .a4{
-	background-image: url("images/marioKartItems/greenShell.png");
+	background-image: url("images/wodioKartItems/greenShell.png");
 }
 .a5{
-	background-image: url("images/marioKartItems/lightning.png");
+	background-image: url("images/wodioKartItems/lightning.png");
 }
 .a6{
-	background-image: url("images/marioKartItems/mushroom.png");
+	background-image: url("images/wodioKartItems/mushroom.png");
 }
 .a7{
-	background-image: url("images/marioKartItems/redShell.png");
+	background-image: url("images/wodioKartItems/redShell.png");
 }
 .a8{
-	background-image: url("images/marioKartItems/star.png");
+	background-image: url("images/wodioKartItems/star.png");
 }
