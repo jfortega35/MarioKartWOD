@@ -31,36 +31,44 @@ function getPenalty(){
 	var itemBox = document.getElementById("itemBox").className
     switch (itemBox){
         case "a1":
+            //banana
             boxResult.innerHTML = "YOU DO 10 PULL-UPS";
             starAudio.stop();
             break;
         case "a2":
+            //blueShell
             boxResult.innerHTML = "FIRST PLACE, RUN 200 METERS";
             starAudio.stop();
             break;
         case "a3":
+            //bobomb
             boxResult.innerHTML = "YOU DO 10 TOE-TO-BAR";
             starAudio.stop();
             break;
         case "a4":
-            boxResult.innerHTML = "PERSON TO YOUR LEFT, DO 15 KB SWINGS";
+            //greenShell
+            boxResult.innerHTML = "PICK SOMEONE TO DO 10 GOBLET SQUATS";
             starAudio.stop();
             break;
         case "a5":
-            boxResult.innerHTML = "EVERYONE BUT YOU, DO 15 BURPEES";
+            //lightning
+            boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 BURPEES";
             starAudio.stop();
             lightningAudio.play();
             break;
         case "a6":
+            //mushroom
             boxResult.innerHTML = "EVERYONE BUT YOU, DO 15 SIT-UPS";
             starAudio.stop();
             break;
         case "a7":
+            //redShell
             boxResult.innerHTML = "PICK SOMEONE TO DO 15 KB SWINGS";
             starAudio.stop();
             break;
         case "a8":
-            boxResult.innerHTML = "EVERYONE BUT YOU, DO 15 BOX JUMPS";
+            //star
+            boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 BOX JUMPS";
             starAudio.play();
             break;           
     }
