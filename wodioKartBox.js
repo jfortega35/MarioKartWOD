@@ -32,7 +32,7 @@ function getPenalty(){
     switch (itemBox){
         case "a1":
             //banana
-            boxResult.innerHTML = "YOU DO 10 PULL-UPS";
+            boxResult.innerHTML = "YOU DO 10 SIT-UPS";
             starAudio.stop();
             break;
         case "a2":
@@ -58,7 +58,7 @@ function getPenalty(){
             break;
         case "a6":
             //mushroom
-            boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 SIT-UPS";
+            boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 PULL-UPS";
             starAudio.stop();
             break;
         case "a7":
