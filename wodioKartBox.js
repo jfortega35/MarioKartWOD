@@ -58,12 +58,12 @@ function getPenalty(){
             break;
         case "a6":
             //mushroom
-            boxResult.innerHTML = "EVERYONE BUT YOU, DO 15 SIT-UPS";
+            boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 SIT-UPS";
             starAudio.stop();
             break;
         case "a7":
             //redShell
-            boxResult.innerHTML = "PICK SOMEONE TO DO 15 KB SWINGS";
+            boxResult.innerHTML = "PICK SOMEONE TO DO 10 KB SWINGS";
             starAudio.stop();
             break;
         case "a8":
