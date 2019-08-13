@@ -42,7 +42,7 @@ function getPenalty(){
             break;
         case "a3":
             //bobomb
-            boxResult.innerHTML = "YOU DO 10 TOE-TO-BAR";
+            boxResult.innerHTML = "YOU DO 10 BURPEES";
             starAudio.stop();
             break;
         case "a4":
@@ -52,7 +52,7 @@ function getPenalty(){
             break;
         case "a5":
             //lightning
-            boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 BURPEES";
+            boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 TOE-TO-BAR";
             starAudio.stop();
             lightningAudio.play();
             break;
