@@ -7,14 +7,15 @@ html{
 }
 #main{
 	background-color: #000000;
-	margin-top: 350px;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	padding-top: 30px;
 	padding-bottom: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: calc((100% - 500px) / 2);
     width: 400px;
-    height: 425px;
+    height: 400px;
     outline: thick ridge white;
     display: inline-block
 }
@@ -64,4 +65,32 @@ html{
 }
 .a8{
 	background-image: url("images/wodioKartItems/star.png");
+}
+.container{
+	background-color: #000000;
+	margin-top: 250px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	margin-left: calc((100% - 900px) / 2);
+    width: 800px;
+    height: 120px;
+    outline: thick ridge white;
+    display: inline-block
+}
+
+#display{
+	font-family: 'Press Start 2P';
+	color: #FFFFFF;
+	background-color: #000000;
+    width: 100%;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.buttons{
+    text-align: center;
 }
