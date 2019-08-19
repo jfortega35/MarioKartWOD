@@ -1,15 +1,15 @@
 function setClassic(){
-    window.location.replace("/Users/jfortega35/Documents/JavaScriptProjects/WodioKartBox/classicWodioKart.html")
+    window.location.replace('classicWodioKart.html')
 }
 
 function setBarbell(){
-    window.location.replace("/Users/jfortega35/Documents/JavaScriptProjects/WodioKartBox/barbellWodioKart.html")
+    window.location.replace('barbellWodioKart.html')
 }
 
 function goHome(){
-    window.location.replace("/Users/jfortega35/Documents/JavaScriptProjects/WodioKartBox/homeWodioKart.html")
+    window.location.replace('homeWodioKart.html')
 }
 
 function wodDisplay(){
-    window.location.replace("/Users/jfortega35/Documents/JavaScriptProjects/WodioKartBox/wodDisplay.html")
+    window.location.replace('wodDisplay.html')
 }
