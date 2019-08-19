@@ -4,32 +4,33 @@ var info = true;
 var starAudio = new sound("audio/starPower.mp3");
 var lightningAudio = new sound("audio/lightning.mp3");
 
-function doSpin(){
-	if (doing){
-        return null;}
+function doSpin() {
+    if (doing) {
+        return null;
+    }
     doing = true;
-	var numChanges = randomInt(1,4)*8
-    var numberitemBox = numChanges + randomInt(1,8)
-	var i = 0;
-	boxResult.innerHTML = "..."
-	itemBox = setInterval(spin, 50);
-	function spin(){
-		i++;
-		if (i>=numberitemBox){
+    var numChanges = randomInt(1, 4) * 8
+    var numberitemBox = numChanges + randomInt(1, 8)
+    var i = 0;
+    boxResult.innerHTML = "..."
+    itemBox = setInterval(spin, 50);
+    function spin() {
+        i++;
+        if (i >= numberitemBox) {
             clearInterval(itemBox);
             getPenalty();
-			return null;
-		}
-		itemTile = document.getElementById("itemBox");
-		if (itemTile.className=="a8"){
-			itemTile.className = "a0";
-		}
-        itemTile.className = "a"+(parseInt(itemTile.className.substring(1))+1);
-	}
+            return null;
+        }
+        itemTile = document.getElementById("itemBox");
+        if (itemTile.className == "a8") {
+            itemTile.className = "a0";
+        }
+        itemTile.className = "a" + (parseInt(itemTile.className.substring(1)) + 1);
+    }
 }
-function getPenalty(){
-	var itemBox = document.getElementById("itemBox").className
-    switch (itemBox){
+function getPenalty() {
+    var itemBox = document.getElementById("itemBox").className
+    switch (itemBox) {
         case "a1":
             //banana
             boxResult.innerHTML = "YOU DO 10 SIT-UPS";
@@ -70,13 +71,13 @@ function getPenalty(){
             //star
             boxResult.innerHTML = "EVERYONE BUT YOU, DO 10 BOX JUMPS";
             starAudio.play();
-            break;           
+            break;
     }
-	doing = false;
+    doing = false;
 }
 
-function randomInt(min, max){
-	return Math.floor((Math.random() * (max-min+1)) + min);
+function randomInt(min, max) {
+    return Math.floor((Math.random() * (max - min + 1)) + min);
 }
 
 function sound(src) {
@@ -86,10 +87,10 @@ function sound(src) {
     this.sound.setAttribute("controls", "none");
     this.sound.style.display = "none";
     document.body.appendChild(this.sound);
-    this.play = function(){
-      this.sound.play();
+    this.play = function () {
+        this.sound.play();
     }
-    this.stop = function(){
-      this.sound.pause();
+    this.stop = function () {
+        this.sound.pause();
     }
-  }
+}

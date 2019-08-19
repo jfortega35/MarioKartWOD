@@ -1,5 +1,5 @@
-html{
-    background: url("images/wodioKartItems/wodioKartBackground.png") no-repeat center center fixed; 
+body{
+	background: url("images/wodioKartItems/wodioKartBackground.png") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -15,10 +15,34 @@ html{
 	padding-right: 15px;
 	margin-left: calc((100% - 500px) / 2);
     width: 400px;
-    height: 400px;
+    height: 480px;
     outline: thick ridge white;
     display: inline-block
 }
+
+#wodInstruction{
+	background-color: #000000;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: calc((100% - 800px) / 2);
+    width: 800px;
+    height: 700px;
+    outline: thick ridge white;
+	display: inline-block;
+	font-family: 'Press Start 2P';
+	padding-top: 25px;
+	padding-bottom: 25px;
+    text-align: left;
+    vertical-align: bottom;
+	background-color: #000000;
+	color: #FFFFFF;
+    font-size: 25px;
+}
+
 #boxResult{
     font-family: 'Press Start 2P';
 	padding-top: 25px;
@@ -29,7 +53,7 @@ html{
 	color: #FFFFFF;
     font-size: 25px;
 }
-#itemBox{
+#itemBox {
 	display: block;
 	margin-top: 5px;
 	margin-left: auto;
@@ -68,15 +92,30 @@ html{
 }
 .container{
 	background-color: #000000;
-	margin-top: 125px;
+	margin-top: 50px;
 	padding-top: 30px;
 	padding-bottom: 10px;
 	padding-left: 15px;
 	padding-right: 15px;
 	text-align: center;
 	margin-left: calc((100% - 900px) / 2);
-    width: 800px;
-    height: 120px;
+    width: 820px;
+    height: 175px;
+    outline: thick ridge white;
+    display: inline-block
+}
+
+.welcome{
+	background-color: #000000;
+	margin-top: 70px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	margin-left: calc((100% - 1000px) / 2);
+    width: 1000px;
+    height: 500px;
     outline: thick ridge white;
     display: inline-block
 }
